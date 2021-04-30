@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background: #2d2d2d;
+  height: 72px;
+  color: #fff;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.logoGroup {
+  width: 72px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background-color: #e33e42;
+  display: flex;
+}
+
+.logo {
+  background: url(assets/eleven-fifty-logo-shield.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url(assets/eleven-fifty-logo-shield.svg), none;
+  height: 46px;
+  width: 33px;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+
+.logoText {
+  position: absolute;
+  width: auto;
+  height: 72px;
+  left: 69px;
+  top: 0px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  float: left;
+  padding: 24px 0 0 20px;
+  text-decoration: none;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1;
+}
+
+.header a:visited {
+  color: #fff;
+}
+
+.navigation {
+  height: 72px;
+  width: 700px;
+  font-size: 22px;
+  display: inline;
+  font-family: Overpass, "Open Sans", Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+ul {
+  font-size: 14px;
+  height: 72px;
+  color: black;
+  margin-top: -45px;
+  font-weight: 400;
+  padding-right: 25px; /* delete this line later */
+}
+
+.dashicons {
+  font-family: dashicons;
+  content: "\f223";
+  font-size: 18px;
+  line-height: 1;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+ul a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.largeContent {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 2.3vh;
+}
+
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#parent {
+  text-align: justify;
+}
+#parent li {
+  display: inline-block;
+}
+#parent:after {
+  content: "";
+  width: 70%; /* Ensures justification for single lines */
+  display: inline-block;
+}
+
+#applyNow {
+  display: inline-block;
+  float: left;
+}
+#applyNow a {
+  display: inline-block;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #348db9;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 72px;
+  height: 72px;
+  border-left: #fff solid 4px;
+}
+#applyNow a:hover {
+  background: #51abd7;
+}
+
+#applyNow a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#applyNow a:hover {
+}
+
+#getStarted {
+  display: inline-block;
+  float: left;
+}
+#getStarted a {
+  display: inline-block;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #e33e42;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 72px;
+  height: 72px;
+  border-left: #fff solid 4px;
+}
+#getStarted a:hover {
+  background: #ba1d22;
+}
+
+#getStarted a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#getStarted a:hover {
+}
