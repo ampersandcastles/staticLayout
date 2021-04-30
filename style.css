@@ -7,21 +7,19 @@ body {
   background: #ffffff;
 }
 
+.header {
+  width: 100%;
+  background: #2d2d2d;
+  position: fixed;
+  z-index: 10;
+}
+
 #backgroundVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-}
-.nav {
-  height: 72px;
-  width: 100%;
-  background-color: black;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 .largeContent {
@@ -44,6 +42,38 @@ body {
   width: auto;
 }
 
+/* .title {
+  background: url(assets/eleven-fifty-logo-shield.png);
+  background-size: 100% auto;
+  background-image: url(assets/eleven-fifty-logo-shield.svg), none;
+  background-repeat: no-repeat;
+  width: 33px;
+  background-color: red;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 46px;
+} */
+
+.title {
+  background: url(assets/eleven-fifty-logo-shield.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url(assets/eleven-fifty-logo-shield.svg), none;
+  display: block;
+  height: 46px;
+  width: 33px;
+}
+
+.title-group {
+  width: 72px;
+  height: 72px;
+  background: #e33e42;
+  float: left;
+  padding-top: 14px;
+  padding-left: 18px;
+}
+
 /* h1.wrapperText { // I have no idea what I'm doing.
   letter-spacing: 20vw;
   font-weight: 900;
@@ -54,30 +84,4 @@ body {
   position: absolute;
   bottom: 0;
   float: left;
-} */
-
-/* a.learnMore {
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #e33e42;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 0.075em;
-  line-height: 1;
-  padding: 0.39em 0.65em 0.34em;
-  text-shadow: none;
-  -o-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  margin-right: 10px;
-  margin-bottom: 7px;
-  text-decoration: none;
 } */
