@@ -42,7 +42,7 @@ body {
   height: 72px;
   left: 69px;
   top: 0px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 300;
   float: left;
@@ -110,7 +110,6 @@ ul a:hover {
   position: relative;
   height: 100vh;
   text-align: center;
-  display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -122,11 +121,47 @@ ul a:hover {
   color: white;
   position: relative;
   font-family: "Overpass", "Open Sans", Helvetica, Arial, sans-serif;
-  width: auto;
-  font-size: 3vh;
+  font-size: 55px;
+  font-weight: 900;
+  width: 1000px;
+  line-height: 2.1;
+  flex: 0 0 auto;
+  margin-bottom: 2vh;
+}
+
+.learnMore {
+  background-color: #e33e42;
+  text-transform: uppercase;
+  text-align: left;
+  color: white;
+  position: relative;
+  font-family: "Overpass", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 33px;
   letter-spacing: 0.05em;
-  margin: 0;
-  font-style: normal;
+  padding: 12px;
+  line-height: 1.6;
+  height: 1.4em;
+  margin-top: 0;
+}
+
+/* h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
+
+.textGroup {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-left: 24%;
 }
 
 #backgroundVideo {
@@ -171,10 +206,6 @@ ul a:hover {
   background: #51abd7;
 }
 
-/* #applyNow a {
-  padding-left: 20px;
-  padding-right: 20px;
-} */
 #applyNow a:hover {
 }
 
@@ -199,8 +230,3 @@ ul a:hover {
 #getStarted a:hover {
   background: #ba1d22;
 }
-
-/* #getStarted a {
-  padding-left: 20px;
-  padding-right: 20px;
-} */
